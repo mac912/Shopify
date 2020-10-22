@@ -21,3 +21,5 @@ Once pip has finished downloading the dependencies:
 5. And navigate to http://127.0.0.1:8000/.
 
 It will redirect you to the home page. Here you can go to login page if you have username and password then login else you can register.
+
+![alt text](https://github.com/mac912/shopify/blob/main/Screenshot from 2020-10-22 00-33-00.png?raw=true)

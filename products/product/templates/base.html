@@ -1,0 +1,17 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Base</title>
+    {% include 'base/css.html' %}
+    {% block base_head %}{% endblock %}
+  </head>
+  <body>
+    {% include 'base/navbar.html'%}
+    {% block body %}{% endblock %}
+
+  </body>

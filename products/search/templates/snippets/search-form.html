@@ -1,0 +1,9 @@
+<form method="GET" action='{% url "search:query" %}' class ="form-inline ml-auto" style="display:flex;align-items:center;">
+  <div>
+    <input class="form-control mr-sm-2 py-4" type="search" placeholder="Search" name='q' aria-label="Search" value="{{ query }}">
+  </div>
+  <div class="mt-2">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  </div>
+</form>
+<a href="{% url 'logout' %}" style="margin: 0 1rem">Logout</a>

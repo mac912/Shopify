@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block body %}
+<div class="container">
+    <br>
+    <div class="row">
+        {% if query %}
+        <div>
+            Result for {{ query }}
+            <hr>
+        </div>
+        {% endif %}
+        <br>
+        {% for obj in object_list %}
+        <div class="col">
+            <br>
+            <br>
+            {% include 'products/snippets/card.html' with instance=obj %}
+            <!-- <a href="{{ obj.get_absolute_url }}">{{ obj.title }}</a><br>-->
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
+<!--{'paginator': None,
+'page_obj': None, 
+'is_paginated': False,
+'object_list': <QuerySet [<Product: T-shirt>,<Product: shirt>]>, 
+'product_list': <QuerySet [<Product: T-shirt>, <Product: shirt>]>, 'view': <project.product.views.ProductListView object at 0x7fcab112bba8>}
+-->
+
+<!--{{ paginator }}
+
+{{ is_paginated }}
+
+{{ object_list }}
+-->

@@ -1,0 +1,16 @@
+<div class="card" style="width: 18rem; margin-top: 1rem;">
+    {% if instance.image %}
+        <a href="{{ instance.get_absolute_url }}" class="btn btn-primary">
+            <img class="card-img-top" style="height: 18rem;" src="{{ instance.image.url }}" alt="{{ instance.title }}">    
+        </a>
+    {% endif %}
+        <div class="card-body">
+        <div class="card-content" style="height: 7rem;">
+            <div style="display: flex; justify-content:space-between; align-items:center"><h5 class="card-title">{{ instance.title }}</h5> <h5>({{ instance.price }})</h5></div> 
+            {% comment %} <h5 class="card-title">{{ instance.price }}</h5> {% endcomment %}
+            <p class="card-text" style="white-space: nowrap; overflow: hidden;text-overflow: ellipsis;">{{ instance.description }}</p>
+            <a href="{{ instance.get_absolute_url }}" class="btn btn-primary">Go</a>
+            <!--<a href="{% url 'products:detail' slug=instance.slug %}" class="btn btn-warning">Go</a>-->
+        </div>
+        </div>
+  </div>

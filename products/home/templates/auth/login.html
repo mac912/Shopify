@@ -1,0 +1,8 @@
+<form method="POST"> {% csrf_token %}
+        {{ form }}
+            <!--<input type="text" class="form-control" placeholder="Name" name="fullname">
+            <input type="email" class="form-control" placeholder="Email" name="email">-->
+            <br>
+            <button type="submit" class="btn btn-primary">submit</button>
+        </form>
+         <button class="btn btn-primary" onclick="location.href = '/register/'">Register</button>

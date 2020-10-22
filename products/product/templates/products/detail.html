@@ -1,0 +1,13 @@
+{% include "base.html" %}
+{{ object.title }}<br>
+{% include 'products/snippets/card.html' with instance=object %}
+<!--{{ object.description }}<br>
+{{object.image.url }}-->
+<!--{% if object.image %}
+    <img src='{{ object.image.url }}' class="img-fluid">
+{% endif %}
+-->
+<div class="col">
+
+    {% include 'products/snippets/update-cart.html' with product=object cart=cart %}
+</div>

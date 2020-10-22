@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block body %}
+<div class="container bg-primary">
+    Featured Products
+</div>
+{% if request.user.is_authenticated %}
+<div class="container">
+    <div class="container">      
+        <div class="row">
+        {% for obj in object_list %}
+        <div class="col">
+        {% include 'products/snippets/card.html' with instance=obj %}
+        <!-- <a href="{{ obj.get_absolute_url }}">{{ obj.title }}</a><br>-->
+        </div>
+        {% endfor %}
+        </div>
+    </div>
+</div>
+{% else %}
+    <div class="container"><a href="{% url 'login' %}">Login</a></div>
+{% endif %}
+{% endblock %}

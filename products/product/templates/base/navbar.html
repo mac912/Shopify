@@ -1,0 +1,27 @@
+{% url 'cart:home' as cart_url %}
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          <img src="https://cdn.vectorstock.com/i/1000x1000/27/86/people-shopping-bag-color-logo-vector-4122786.jpg" width="30" height="30"
+            class="d-inline-block align-top" alt="">
+          Shopify
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle='collapse' data-target='#navbarCollapseLinks'
+          aria-expanded="false" aria-label="Toggle Navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapseLinks">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="/home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="/products" class="nav-link">Products</a>
+            </li>
+            <li class="nav-item">
+                <a href="{{ cart_url }}" class="nav-link"><b>{{ request.session.cart_items }}</b><img src="https://tse1.mm.bing.net/th?id=OIP.l6nRvkoqnGh9tY1xJPK4LwHaGE&pid=Api&P=0&w=204&h=168" alt="cart" width="20px" height="20px"></a>
+              </li>
+          </ul>
+          {% include 'snippets/search-form.html' %}
+        </div> 
+        </div>
+      </nav>

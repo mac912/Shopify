@@ -22,4 +22,48 @@ Once pip has finished downloading the dependencies:
 
 It will redirect you to the home page. Here you can go to login page if you have username and password then login else you can register.
 
-![alt text](https://github.com/mac912/Shopify/blob/main/Screenshots/login.PNG?raw=true)
+
+First page
+
+![Login](https://github.com/mac912/Shopify/blob/main/Screenshots/login.PNG?raw=true)
+
+Login
+
+![Loginpage](https://github.com/mac912/Shopify/blob/main/Screenshots/loginpage.PNG?raw=true)
+
+Register
+
+![register](https://github.com/mac912/Shopify/blob/main/Screenshots/register.PNG?raw=true)
+
+Home
+
+![Home](https://github.com/mac912/Shopify/blob/main/Screenshots/home.PNG?raw=true)
+
+Products
+
+![products](https://github.com/mac912/Shopify/blob/main/Screenshots/Products.PNG?raw=true)
+
+Search
+
+![search](https://github.com/mac912/Shopify/blob/main/Screenshots/search.PNG?raw=true)
+
+Cart
+
+![cart](https://github.com/mac912/Shopify/blob/main/Screenshots/cart.PNG?raw=true)
+
+Order
+
+![order](https://github.com/mac912/Shopify/blob/main/Screenshots/order.PNG?raw=true)
+
+Tag
+
+![tag](https://github.com/mac912/Shopify/blob/main/Screenshots/tag.PNG?raw=true)
+
+Users
+
+![users](https://github.com/mac912/Shopify/blob/main/Screenshots/users.PNG?raw=true)
+
+Bill
+
+![bill](https://github.com/mac912/Shopify/blob/main/Screenshots/bill.PNG?raw=true)
+

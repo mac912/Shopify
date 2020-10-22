@@ -4,6 +4,7 @@
 
 1. The first thing to do is to clone the repository:
 > $ git clone https://github.com/mac912/Shopify.git
+--
 > $ cd Shopify
 
 2. Activate a virtual environment to install dependencies in it:

@@ -22,4 +22,9 @@ Once pip has finished downloading the dependencies:
 
 It will redirect you to the home page. Here you can go to login page if you have username and password then login else you can register.
 
+<<<<<<< HEAD
 ![alt text](https://github.com/mac912/shopify/blob/main/Screenshots/Screenshot%20from%202020-10-22%2000-33-00.png?raw=true)
+=======
+![alt text](https://github.com/mac912/shopify/blob/main/Screenshot from 2020-10-22 00-33-00.png?raw=true)
+https://github.com/mac912/Shopify/blob/main/Screenshots/Screenshot%20from%202020-10-22%2000-33-00.png
+>>>>>>> fadd9d505266ab778a3695bc1b31424df1d5208e
